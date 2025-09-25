@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+            background-color: rgb(255, 219, 77);
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            
+        
+        }
+        #card{
+            margin-top:90px;
+            width:400px;
+            height:500px;
+            background-color: white;
+            border-radius:5px;
+        }
+        #card-image{
+            height:200px;
+            width:350px;
+            background:url('./Assets/illustration-article.svg');
+            margin:30px auto 0;
+            border-radius:3px
+        }
+
+        #card-content{
+            width:350px;
+            margin:10px auto
+
+        }
+
+        #tag{
+            background:rgb(255, 217, 90);
+            width:fit-content;
+            border-radius:5px;
+            padding: 4px 10px;
+            font-weight:bold
+        }
+
+        #published{
+            margin-top:10px;
+            font-size: 15px;
+            font-weight: lighter;
+            color:black
+        }
+
+        #title{
+            margin-top:10px;
+            font-size: 25px;
+            font-weight:bold;
+
+        }
+
+        #details{
+            margin-top:10px;
+            font-size:15px;
+            font-weight: lighter;
+            color:black
+        }
+    </style>
+</head>
+<body>
+    <div id="card">
+        <div id="card-image"></div>
+        <div id="card-content">
+            <div id="tag">Learning</div>
+            <div id="published">Published on 21 December 2023</div>
+            <div id="title">HTML & CSS foundation</div>
+            <div id="details">
+                These languages are the backbone of every website, defining structure, content, and presentation.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
